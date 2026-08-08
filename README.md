@@ -1253,5 +1253,5 @@ The project provides a foundation for future improvements such as **AI-based irr
 
 ---
 
-*Smart Irrigation for a Sustainable Future* 🌱💧
+*Smart Irrigation for a Sustainable Future* 
 *Developed as an 2023 academic IoT project at University College of Engineering, Ariyalur*
