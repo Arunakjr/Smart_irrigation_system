@@ -1,4 +1,5 @@
-//code Was written by Arunkumar G
+//PROJECT SMART IRRIGATION SYSTEM IS FOR AGRICULTURE TO MONITORING THE FIELDS AND ALERTING, AUTOMATING BY USING INTERNET OF THINGS
+//Code Was written by Arunkumar G
 //I made a few small changes to the code using GPT 3.5
 #define BLYNK_PRINT Serial
 
@@ -47,8 +48,6 @@ DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
 // VARIABLES
-
-
 bool pumpState = false;
 
 int soilValue = 0;
@@ -62,8 +61,6 @@ float dhtTemp = 0;
 float humidity = 0;
 
 // PUMP CONTROL
-
-
 // Blynk Button V7
 // Set Blynk button to SWITCH mode
 
