@@ -38,7 +38,7 @@ The system is designed for applications such as **agriculture, terrace gardening
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Traditional irrigation methods often depend on manual watering, which can result in **water wastage, over-irrigation, under-irrigation, and unnecessary human effort**.
 
@@ -70,17 +70,17 @@ When the soil moisture level becomes low, the system can automatically activate 
 
 ### Key Problems Addressed
 
-* 💧 **Water Wastage:** Manual irrigation can supply more water than plants actually require.
-* 🌱 **Improper Irrigation:** Plants may not receive water according to actual soil moisture conditions.
-* 👨‍🌾 **Manual Effort:** Continuous manual monitoring and watering requires time and effort.
-* 🌧️ **Unnecessary Watering During Rain:** Irrigation should be reduced or stopped when rainfall is detected.
-* 📱 **Lack of Remote Monitoring:** Traditional systems generally do not provide mobile-based monitoring.
-* 🌡️ **Environmental Monitoring:** Temperature and humidity conditions can provide useful information about the plant environment.
-* 🔌 **Pump Automation:** Manual pump operation can be replaced with automated control.
+*  **Water Wastage:** Manual irrigation can supply more water than plants actually require.
+*  **Improper Irrigation:** Plants may not receive water according to actual soil moisture conditions.
+*  **Manual Effort:** Continuous manual monitoring and watering requires time and effort.
+*  **Unnecessary Watering During Rain:** Irrigation should be reduced or stopped when rainfall is detected.
+*  **Lack of Remote Monitoring:** Traditional systems generally do not provide mobile-based monitoring.
+*  **Environmental Monitoring:** Temperature and humidity conditions can provide useful information about the plant environment.
+*  **Pump Automation:** Manual pump operation can be replaced with automated control.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this project are:
 
@@ -96,26 +96,26 @@ The main objectives of this project are:
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🌱 **Soil Moisture Monitoring**
-* 💧 **Automatic Irrigation**
-* 🌡️ **Temperature Monitoring**
-* 💦 **Humidity Monitoring**
-* 🌧️ **Rain Detection**
-* 🚰 **Automatic Water Pump Control**
-* 📱 **Blynk Mobile Application**
-* 📡 **Wi-Fi Connectivity**
-* 🚶 **PIR Motion Detection**
-* 🔋 **Battery Power Option**
-* ☀️ **Solar Power Option**
-* 🌐 **Remote Monitoring**
-* 💦 **Water Conservation**
-* ⚙️ **Reduced Manual Intervention**
+*  **Soil Moisture Monitoring**
+*  **Automatic Irrigation**
+*  **Temperature Monitoring**
+*  **Humidity Monitoring**
+*  **Rain Detection**
+*  **Automatic Water Pump Control**
+*  **Blynk Mobile Application**
+*  **Wi-Fi Connectivity**
+*  **PIR Motion Detection**
+*  **Battery Power Option**
+*  **Solar Power Option**
+*  **Remote Monitoring**
+*  **Water Conservation**
+*  **Reduced Manual Intervention**
 
 ---
 
-# 🛠️ Components Used
+#  Components Used
 
 ## Hardware Components
 
@@ -150,12 +150,12 @@ The main objectives of this project are:
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ## System Diagram
 
 ```text
-                         ☁️ INTERNET
+                          INTERNET
                               │
                               │ Wi-Fi
                               ▼
@@ -164,7 +164,7 @@ The main objectives of this project are:
                      └────────┬────────┘
                               │
                               ▼
-                       📱 BLYNK APP
+                          BLYNK APP
                               │
                               │
                               ▼
@@ -176,16 +176,16 @@ The main objectives of this project are:
           ┌───────────────────┼───────────────────┐
           │                   │                   │
           ▼                   ▼                   ▼
-   🌱 Soil Moisture     🌡️ Temperature      💦 Humidity
+    Soil Moisture      Temperature       Humidity
       Sensor              Sensor              Sensor
           │                   │                   │
           └───────────────────┼───────────────────┘
                               │
                               ▼
-                       🌧️ Rain Sensor
+                         Rain Sensor
                               │
                               ▼
-                       🚶 PIR Sensor
+                         PIR Sensor
                               │
                               ▼
                     ┌─────────────────┐
@@ -193,14 +193,13 @@ The main objectives of this project are:
                     └────────┬────────┘
                              │
                              ▼
-                      🔌 Relay / Control
+                        Relay / Control
                              │
                              ▼
-                       💧 Water Pump
+                         Water Pump
                              │
                              ▼
-                           🌱
-                         Plants
+                           Plants
 ```
 
 ---
@@ -233,7 +232,7 @@ The main objectives of this project are:
 
 # ⚙️ How It Works
 
-## 🌱 Soil Moisture-Based Irrigation
+##  Soil Moisture-Based Irrigation
 
 The soil moisture sensor continuously monitors the moisture content of the soil.
 
@@ -290,14 +289,14 @@ The exact moisture threshold should be configured according to the actual sensor
 
 ---
 
-# 🌧️ Rain Detection
+#  Rain Detection
 
 The raindrop sensor detects the presence of rainfall or moisture on its sensing surface.
 
 The system can use rainfall information to prevent unnecessary irrigation.
 
 ```text
-             🌧️ Rain Detected
+               Rain Detected
                     │
                     ▼
              Suspend Irrigation
@@ -310,7 +309,7 @@ This feature helps improve water conservation.
 
 ---
 
-# 🌡️ Temperature Monitoring
+#   Temperature Monitoring
 
 The temperature sensor measures the ambient temperature around the plants.
 
@@ -323,7 +322,7 @@ Temperature information can be used to:
 
 ---
 
-# 💦 Humidity Monitoring
+#   Humidity Monitoring
 
 The humidity sensor measures the relative humidity of the surrounding environment.
 
@@ -331,27 +330,27 @@ Humidity information can be monitored along with soil moisture and temperature t
 
 ---
 
-# 🚶 PIR Motion Detection
+#  PIR Motion Detection
 
 The PIR sensor can detect movement of humans or animals near the irrigation system.
 
 ### Possible Applications
 
-#### 👤 Human Presence
+####  Human Presence
 
 Detect people around the irrigation system during maintenance or manual operation.
 
-#### 🛡️ Security
+####  Security
 
 Movement can be used as an intrusion/security indication.
 
-#### 🐕 Wildlife Detection
+####  Wildlife Detection
 
 The sensor can detect animals that may interfere with plants or irrigation equipment.
 
 ---
 
-# 💧 Pump Control
+#  Pump Control
 
 The water pump is responsible for delivering water to the plants.
 
@@ -379,7 +378,7 @@ When sufficient soil moisture is achieved, the pump should be switched OFF.
 
 ---
 
-# 📱 Blynk IoT Application
+#  Blynk IoT Application
 
 The project uses **Blynk** as the IoT/mobile interface.
 
@@ -389,19 +388,19 @@ The NodeMCU ESP8266 connects to Wi-Fi and communicates system information to the
 
 The Blynk application can be configured to display:
 
-* 🌱 Soil moisture
-* 🌡️ Temperature
-* 💦 Humidity
-* 🌧️ Rain status
-* 💧 Pump status
-* 🚶 Motion detection
-* 📡 Device connectivity
+*  Soil moisture
+*  Temperature
+*  Humidity
+*  Rain status
+*  Pump status
+*  Motion detection
+*  Device connectivity
 
 ### Example Dashboard
 
 ```text
 ┌─────────────────────────────────┐
-│       🌱 SMART IRRIGATION       │
+│          SMART IRRIGATION       │
 ├─────────────────────────────────┤
 │                                 │
 │ Soil Moisture:      XX %        │
@@ -411,7 +410,7 @@ The Blynk application can be configured to display:
 │ Pump Status:        ON          │
 │ Motion:             NOT DETECTED│
 │                                 │
-│        💧 PUMP CONTROL          │
+│           PUMP CONTROL          │
 │          [ ON / OFF ]           │
 │                                 │
 └─────────────────────────────────┘
@@ -421,7 +420,7 @@ The exact Blynk virtual-pin configuration should be added after the final firmwa
 
 ---
 
-# 🔋 Power System
+#   Power System
 
 The project presentation specifies multiple possible power sources.
 
@@ -458,7 +457,7 @@ The actual voltage regulation and battery-management circuit should be documente
 
 ---
 
-# 🚀 Installation & Setup
+#   Installation & Setup
 
 ## Prerequisites
 
@@ -579,7 +578,7 @@ Configure your Blynk project and authentication credentials.
 
 ---
 
-# 📊 System Operation
+#   System Operation
 
 ## Normal Operation
 
@@ -616,7 +615,7 @@ Repeat
 
 ---
 
-# 🧪 Testing & Evaluation
+#   Testing & Evaluation
 
 The following testing approach can be used to validate the prototype.
 
@@ -678,7 +677,7 @@ Verify:
 
 ---
 
-# 📈 Evaluation Matrix
+#   Evaluation Matrix
 
 | Test           | Input                 | Expected Result             |
 | -------------- | --------------------- | --------------------------- |
@@ -695,7 +694,7 @@ Verify:
 
 ---
 
-# 📱 Usage Guide
+#   Usage Guide
 
 ## Automatic Mode
 
@@ -740,21 +739,21 @@ Users can open the Blynk application to monitor:
 
 ---
 
-# 🌾 Applications
+#   Applications
 
-## 🏡 Residential Gardens
+##  Residential Gardens
 
 Automated watering for home gardens and lawns.
 
-## 🪴 Terrace Gardening
+##  Terrace Gardening
 
 Useful for terrace gardens where manual watering can be inconvenient.
 
-## 🌾 Agriculture
+##  Agriculture
 
 Can be adapted for agricultural crops and farming applications.
 
-## 🏢 Commercial Landscapes
+##  Commercial Landscapes
 
 Can be used in:
 
@@ -763,35 +762,35 @@ Can be used in:
 * Commercial properties
 * Landscaped areas
 
-## 🏟️ Sports Fields
+##  Sports Fields
 
 Can assist with efficient irrigation of turf and sports fields.
 
 ---
 
-# ✅ Advantages
+#  Advantages
 
-### 💧 Water Conservation
+###  Water Conservation
 
 The system can reduce unnecessary watering by considering soil moisture and rainfall.
 
-### 🤖 Automation
+###  Automation
 
 Automatic pump operation reduces the need for continuous manual watering.
 
-### 📱 Remote Monitoring
+###  Remote Monitoring
 
 Blynk allows users to monitor the system remotely.
 
-### ⏱️ Time Saving
+###  Time Saving
 
 The automated system reduces manual effort.
 
-### 🌱 Better Plant Management
+###  Better Plant Management
 
 Monitoring soil moisture helps provide water according to plant requirements.
 
-### ☀️ Renewable Power Option
+###  Renewable Power Option
 
 Solar power can be incorporated for suitable installations.
 
@@ -808,33 +807,33 @@ Solar power can be incorporated for suitable installations.
 
 ---
 
-# 🔮 Future Enhancements
+#  Future Enhancements
 
 The current prototype can be expanded into a more advanced smart agriculture platform.
 
 ### Proposed Improvements
 
-* [ ] 🤖 **AI-Based Irrigation Prediction**
-* [ ] 🌦️ **Weather API Integration**
-* [ ] 📊 **Historical Sensor Data**
-* [ ] 📈 **Irrigation Analytics**
-* [ ] 💧 **Water Consumption Measurement**
-* [ ] 📡 **LoRa / LoRaWAN Connectivity**
-* [ ] 🔋 **Advanced Solar Power Management**
-* [ ] 📱 **Improved Mobile Dashboard**
-* [ ] 🌱 **Multi-Zone Irrigation**
-* [ ] 🚨 **Advanced Alert System**
-* [ ] ☁️ **Cloud Data Storage**
-* [ ] 🧠 **Machine Learning-Based Irrigation**
-* [ ] 🌾 **Crop-Specific Irrigation Profiles**
-* [ ] 🔧 **Pump Failure Detection**
-* [ ] 📍 **GPS-Based Farm Monitoring**
+* [ ]  **AI-Based Irrigation Prediction**
+* [ ]  **Weather API Integration**
+* [ ]  **Historical Sensor Data**
+* [ ]  **Irrigation Analytics**
+* [ ]  **Water Consumption Measurement**
+* [ ]  **LoRa / LoRaWAN Connectivity**
+* [ ]  **Advanced Solar Power Management**
+* [ ]  **Improved Mobile Dashboard**
+* [ ]  **Multi-Zone Irrigation**
+* [ ]  **Advanced Alert System**
+* [ ]  **Cloud Data Storage**
+* [ ]  **Machine Learning-Based Irrigation**
+* [ ]  **Crop-Specific Irrigation Profiles**
+* [ ]  **Pump Failure Detection**
+* [ ]  **GPS-Based Farm Monitoring**
 
 ---
 
-# 🛡️ Maintenance & Safety
+#  Maintenance & Safety
 
-## 🧽 Sensor Maintenance
+##  Sensor Maintenance
 
 Regularly inspect:
 
@@ -910,19 +909,19 @@ Recommended metrics to document:
 
 ---
 
-# 🌟 Project Impact
+#  Project Impact
 
 ## Environmental Impact
 
-💧 **Water Conservation**
+ **Water Conservation**
 
 Automatic irrigation can help reduce unnecessary water usage.
 
-🌱 **Improved Plant Care**
+ **Improved Plant Care**
 
 Soil moisture monitoring allows irrigation decisions to be based on actual soil conditions.
 
-☀️ **Renewable Energy Potential**
+ **Renewable Energy Potential**
 
 Solar power can be incorporated to reduce dependence on conventional power sources.
 
@@ -934,21 +933,21 @@ Solar power can be incorporated to reduce dependence on conventional power sourc
 
 Combines sensors, embedded control, Wi-Fi, cloud connectivity, and mobile monitoring.
 
-📱 **Remote Monitoring**
+ **Remote Monitoring**
 
 Users can monitor the irrigation system remotely using Blynk.
 
-🤖 **Automation**
+ **Automation**
 
 The system reduces dependence on manual pump operation.
 
-🌐 **Scalable Architecture**
+ **Scalable Architecture**
 
 The basic architecture can be expanded with additional sensors and irrigation zones.
 
 ---
 
-# 📸 Project Gallery
+#  Project Gallery
 
 Add your actual project photographs to the `images/` directory.
 
@@ -970,7 +969,7 @@ Add your actual project photographs to the `images/` directory.
 
 ## Circuit Diagram
 
-![Circuit Diagram](images/circuit-diagram.png)
+![Circuit Diagram](images/circuit-diagram.jpeg)
 
 *Circuit diagram of the smart irrigation system.*
 
@@ -978,7 +977,7 @@ Add your actual project photographs to the `images/` directory.
 
 ## Block Diagram
 
-![System Block Diagram](images/block-diagram.png)
+![System Block Diagram](images/block-diagram.jpeg)
 
 *System architecture showing sensors, NodeMCU, Blynk and irrigation control.*
 
@@ -986,15 +985,13 @@ Add your actual project photographs to the `images/` directory.
 
 ## Blynk Dashboard
 
-![Blynk Dashboard](images/blynk-dashboard.png)
+![Blynk Dashboard](images/blynk-dashboard.jpeg)
 
 *Blynk mobile application for remote monitoring.*
 
-> Replace the image filenames above with the actual filenames in your repository.
-
 ---
 
-# 🗂️ Suggested Repository Structure
+# Repository Structure
 
 ```text
 Smart-Irrigation-System/
@@ -1079,13 +1076,13 @@ When troubleshooting the system, follow this sequence:
 | **Dinesh V.**         | **814820105301** |
 | **Fharith Ahamed F.** | **814820105302** |
 
-### 👨‍🏫 Supervisor
+###  Supervisor
 
 **Mr. K. Kanagavel**
 Teaching Fellow
 Department of Electrical and Electronics Engineering
 
-### 👩‍🏫 Coordinator
+###  Coordinator
 
 **Mrs. V. Malathy, M.E.**
 Assistant Professor
@@ -1250,13 +1247,11 @@ The project provides a foundation for future improvements such as **AI-based irr
 
 ---
 
-**⭐ If you found this project useful, please give it a star!**
+** Contributions, suggestions, and improvements are welcome!**
 
-**🤝 Contributions, suggestions, and improvements are welcome!**
-
-**🌱 Built with NodeMCU ESP8266 + Blynk + IoT**
+** Built with NodeMCU ESP8266 + Blynk + IoT**
 
 ---
 
 *Smart Irrigation for a Sustainable Future* 🌱💧
-*Developed as an academic IoT project at University College of Engineering, Ariyalur*
+*Developed as an 2023 academic IoT project at University College of Engineering, Ariyalur*
