@@ -1,4 +1,4 @@
-# 🌱 Smart Irrigation System Using Blynk
+#  Smart Irrigation System Using Blynk
 
 ### *IoT-Based Automated Irrigation and Plant Monitoring System*
 
@@ -8,7 +8,7 @@ The system is designed for applications such as **agriculture, terrace gardening
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 * [Overview](#-overview)
 * [Problem Statement](#-problem-statement)
@@ -62,11 +62,11 @@ When the soil moisture level becomes low, the system can automatically activate 
 | **Actuator**              | 24V DC Water Pump              |
 | **Power Options**         | Battery / Solar / Direct Power |
 | **Project Type**          | IoT / Embedded System          |
-| **Status**                | ✅ Academic Prototype           |
+| **Status**                |   Academic Prototype           |
 
 ---
 
-## ❗ Problem Statement
+##   Problem Statement
 
 ### Key Problems Addressed
 
@@ -138,7 +138,7 @@ The main objectives of this project are:
 
 ---
 
-## 💻 Software & Technologies
+##   Software & Technologies
 
 | Technology          | Purpose                                |
 | ------------------- | -------------------------------------- |
@@ -204,7 +204,7 @@ The main objectives of this project are:
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 1. **Sensors collect data**
 
@@ -230,7 +230,7 @@ The main objectives of this project are:
 
 ---
 
-# ⚙️ How It Works
+#  How It Works
 
 ##  Soil Moisture-Based Irrigation
 
@@ -426,20 +426,20 @@ The project presentation specifies multiple possible power sources.
 
 ### Power Options
 
-* 🔋 Lithium-ion battery / power module
-* ☀️ Solar panel
-* 🔌 Direct power connection
+*  Lithium-ion battery / power module
+*  Solar panel
+*  Direct power connection
 
 ### Solar-Powered Concept
 
 ```text
-       ☀️ SOLAR PANEL
+         SOLAR PANEL
               │
               ▼
        POWER MANAGEMENT
               │
               ▼
-       🔋 BATTERY SYSTEM
+        BATTERY SYSTEM
               │
         ┌─────┴─────┐
         │           │
@@ -478,7 +478,7 @@ Before starting the project, prepare:
 
 ---
 
-## 🔌 Hardware Setup
+##   Hardware Setup
 
 ### Step 1 — Connect the Sensors
 
@@ -516,7 +516,7 @@ Before powering the system:
 
 ---
 
-# 💻 Software Setup
+#   Software Setup
 
 ## 1. Install Arduino IDE
 
@@ -847,7 +847,7 @@ Clean sensors when required and ensure proper placement.
 
 ---
 
-## ⚡ Electrical Safety
+##   Electrical Safety
 
 * ⚠️ Disconnect power before modifying wiring.
 * ⚠️ Keep electronic components away from water.
@@ -859,7 +859,7 @@ Clean sensors when required and ensure proper placement.
 
 ---
 
-## 💧 Water Safety
+##  Water Safety
 
 The irrigation system should be installed so that water cannot directly contact:
 
@@ -873,7 +873,7 @@ For permanent outdoor deployment, use an appropriately rated waterproof enclosur
 
 ---
 
-# 📅 Recommended Maintenance Schedule
+#  Recommended Maintenance Schedule
 
 | Task                | Frequency          | Details                          |
 | ------------------- | ------------------ | -------------------------------- |
@@ -888,7 +888,7 @@ For permanent outdoor deployment, use an appropriately rated waterproof enclosur
 
 ---
 
-# 📊 Performance Metrics
+#  Performance Metrics
 
 The exact numerical performance specifications were **not provided in the project presentation**, so they should be measured during final testing rather than estimated.
 
@@ -1016,7 +1016,7 @@ Smart-Irrigation-System/
 
 ---
 
-# 🛠️ Troubleshooting
+#  Troubleshooting
 
 | Problem                                | Possible Cause               | Solution                        |
 | -------------------------------------- | ---------------------------- | ------------------------------- |
@@ -1035,7 +1035,7 @@ Smart-Irrigation-System/
 
 ---
 
-# 🔍 Diagnostic Procedure
+#  Diagnostic Procedure
 
 When troubleshooting the system, follow this sequence:
 
@@ -1063,7 +1063,7 @@ When troubleshooting the system, follow this sequence:
 
 ---
 
-# 👥 Team Members
+#  Team Members
 
 ### University College of Engineering, Ariyalur
 
@@ -1090,11 +1090,11 @@ Department of Electrical and Electronics Engineering
 
 ---
 
-# 🤝 Team Contribution
+#  Team Contribution
 
 The project combines several areas of embedded and IoT engineering:
 
-### 🔧 Hardware Development
+###  Hardware Development
 
 * Sensor integration
 * ESP8266 interfacing
@@ -1102,20 +1102,20 @@ The project combines several areas of embedded and IoT engineering:
 * Power system
 * Circuit implementation
 
-### 💻 Embedded Software
+###  Embedded Software
 
 * Sensor data acquisition
 * Decision-making logic
 * Pump control
 * Wi-Fi communication
 
-### 📱 IoT Integration
+###  IoT Integration
 
 * Blynk connectivity
 * Mobile monitoring
 * Remote system information
 
-### 🧪 Testing
+###  Testing
 
 * Sensor testing
 * Pump testing
@@ -1124,7 +1124,7 @@ The project combines several areas of embedded and IoT engineering:
 
 ---
 
-# 🧪 Project Evaluation
+#  Project Evaluation
 
 The project was evaluated based on its ability to:
 
@@ -1139,22 +1139,22 @@ The project was evaluated based on its ability to:
 
 ---
 
-# 🏆 Project Achievements
+#  Project Achievements
 
-* ✅ Developed an IoT-based irrigation prototype.
-* ✅ Integrated NodeMCU ESP8266 with multiple sensors.
-* ✅ Implemented soil moisture-based irrigation.
-* ✅ Integrated rain detection.
-* ✅ Implemented environmental monitoring.
-* ✅ Integrated PIR motion detection.
-* ✅ Implemented water pump control.
-* ✅ Integrated Blynk IoT monitoring.
-* ✅ Demonstrated an automated irrigation concept.
-* ✅ Provided a foundation for future smart agriculture applications.
+*  Developed an IoT-based irrigation prototype.
+*  Integrated NodeMCU ESP8266 with multiple sensors.
+*  Implemented soil moisture-based irrigation.
+*  Integrated rain detection.
+*  Implemented environmental monitoring.
+*  Integrated PIR motion detection.
+*  Implemented water pump control.
+*  Integrated Blynk IoT monitoring.
+*  Demonstrated an automated irrigation concept.
+*  Provided a foundation for future smart agriculture applications.
 
 ---
 
-# 🎓 Educational Value
+#  Educational Value
 
 This project provides practical experience in:
 
@@ -1188,7 +1188,7 @@ This project provides practical experience in:
 
 ---
 
-# 📄 References
+#  References
 
 The project presentation identifies the following technologies and components:
 
@@ -1205,7 +1205,7 @@ Additional component datasheets and library documentation should be added to thi
 
 ---
 
-# 📜 License
+#  License
 
 This project was developed as an academic project under the:
 
@@ -1218,7 +1218,7 @@ Please provide appropriate credit when reusing or modifying the project.
 
 ---
 
-# 🙏 Acknowledgments
+#  Acknowledgments
 
 We would like to thank:
 
@@ -1235,7 +1235,7 @@ for their support and resources during the development of this project.
 
 ---
 
-# 🌱 Conclusion
+#  Conclusion
 
 The **Smart Irrigation System Using Blynk** demonstrates how IoT technology can be applied to modern agriculture and gardening.
 
