@@ -11,9 +11,9 @@
 
 // BLYNK DETAILS
 
-char auth[] = "adnuieWhAtsupbIatchhsdoJD37Aj";
-char ssid[] = "UCEA_23";
-char pass[] = "UCEA_23EEE";
+char auth[] = "YOUR_REAL_BLYNK_TOKEN";
+char ssid[] = "YOUR_REAL_WIFI_SSID";
+char pass[] = "YOUR_REAL_WIFI_PASSWORD";
 
 // PIN DEFINITIONS
 
