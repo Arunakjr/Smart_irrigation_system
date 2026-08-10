@@ -153,7 +153,7 @@ void readSoilAndTemperature()
   Blynk.virtualWrite(V2, moisturePercent);
 }
 
-// PIR SENSOR
+// PIR SENSOR for Motion detection
 
 
 void readPIR()
