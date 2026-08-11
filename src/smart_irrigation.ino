@@ -11,7 +11,7 @@
 
 // BLYNK DETAILS
 
-char auth[] = ""YOUR_REAL_BLYNK_TOKEN";
+char auth[] = "YOUR_REAL_BLYNK_TOKEN";
 char ssid[] = "YOUR_REAL_WIFI_SSID";
 char pass[] = "YOUR_REAL_WIFI_PASSWORD";
 
