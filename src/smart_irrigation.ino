@@ -1,4 +1,4 @@
-//PROJECT SMART IRRIGATION SYSTEM IS FOR AGRICULTURE TO MONITORING THE FIELDS AND ALERTING, AUTOMATING BY USING INTERNET OF THINGS
+//PROJECT SMART IRRIGATION SYSTEM IS FOR AGRICULTURE, TO MONITORING THE FIELDS AND ALERTING, AUTOMATING BY USING INTERNET OF THINGS
 //Code Was written by Arunkumar G
 //I made a few small changes to the code using GPT 3.5
 #define BLYNK_PRINT Serial
@@ -243,7 +243,7 @@ void printStatus()
   else
     Serial.println("OFF");
 
-  Serial.println("===================================");
+  Serial.println("===============================");
   Serial.println();
 }
 // SETUP
